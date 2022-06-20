@@ -11,6 +11,9 @@
   },
   "author": "hungtcs <hungtcs@outlook.com>",
   "license": "ISC",
+  "keywords": [
+    "sandbox"
+  ],
   "devDependencies": {
     "@types/jest": "^28.1.2",
     "@types/node": "^18.0.0",
