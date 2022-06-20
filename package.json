@@ -1,0 +1,21 @@
+{
+  "name": "pico-sandbox",
+  "version": "0.0.0",
+  "description": "simple javascript expressions sandbox implement via Function",
+  "module": "./dist/index.js",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.app.json",
+    "test": "jest"
+  },
+  "author": "hungtcs <hungtcs@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.2",
+    "@types/node": "^18.0.0",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}
