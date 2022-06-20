@@ -9,7 +9,7 @@ describe('Sandbox', () => {
     assert.strictEqual(result, 3);
   });
 
-  it('should shield variables', () => {
+  it('should shield global variables', () => {
     const parser = Sandbox.compile('Date');
     const result = parser();
     assert.strictEqual(result, undefined);
