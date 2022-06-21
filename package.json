@@ -1,6 +1,6 @@
 {
   "name": "pico-sandbox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple javascript expressions sandbox implement via Function",
   "module": "./dist/index.js",
   "type": "module",
