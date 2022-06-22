@@ -20,5 +20,16 @@
     "jest": "^28.1.1",
     "ts-jest": "^28.0.5",
     "typescript": "^4.7.4"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungtcs/pico-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hungtcs/pico-sandbox/issues"
+  },
+  "homepage": "https://github.com/hungtcs/pico-sandbox#readme"
 }
