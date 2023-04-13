@@ -2,6 +2,14 @@
 
 Simple javascript expressions sandbox implement via Function.  
 
+## Warning
+
+The implementation of pico-sandbox is not absolutely secure, as it cannot restrict the JavaScript prototype chain. For example, the following code can bypass the limitations of the sandbox.
+
+```js
+''.constructor.__proto__.constructor("alert()")()
+```
+
 ## Installation
 
 ```shell
